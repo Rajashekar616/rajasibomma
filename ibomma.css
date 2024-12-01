@@ -1,0 +1,153 @@
+body{
+    background-color: #000;
+    margin: 0;
+}
+::selection{
+    background-color: yellow;
+    color: #000;
+}
+header>div:nth-child(1) img{
+    height: 80px;
+    width:150px;
+}
+header{
+    background-color: #1b1b1b;
+    border-top: 6px solid yellow;
+    display: flex;
+    padding-top: 12px;
+    padding-left: 50px;
+    padding-bottom: 8px;
+}
+header nav img{
+    height: 24px;
+    width: 25px;
+}
+header nav div:nth-child(odd){
+    padding-left: 20px;
+}
+.even{
+    padding-left: 5px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+header>nav{
+    display: flex;
+    margin-left: 600px;
+    padding-top: 40px;
+}
+nav input{
+    padding: 3px;
+    padding-left: 10px;
+    background-color: #1b1b1b;
+    color:white;
+    border: 1px solid black;
+    border-radius: 20px 0 0 20px;
+}
+nav div:nth-child(8) img{
+    border-radius: 0 20px 20px 0;
+    height: 22px;
+}
+.slogan{
+    color: #fff;
+    padding: 20px 20px;
+    text-align: center;
+}
+.slogan h1{
+    font-size: 40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grid-box{
+    width:90%;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto;
+    grid-gap: 20px;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.grid-box >div{
+    width:200px;
+}
+.grid-box img,.addones img{
+    width:180px;
+    height: 280px;
+    border-radius: 10px;
+}
+.grid-box div>div:nth-child(2)
+{
+   color:white;
+}
+span{
+   color: yellow;
+   background-color: #504d4d;
+}
+.grid-item a,.addones a{
+    text-decoration: none;
+    color:white;
+}
+a>div:nth-child(2):hover{
+    color:#afa6a6;
+}
+.look{
+    background-color: #1b1b1b;
+    width:80%;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.look div{
+    display: inline;
+}
+.look input{
+    width: 50%  ;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border:1px solid black;
+    background: #1b1b1b;
+    padding-left: 20px;
+    color: white;
+}
+.look input ::placeholder{
+    color:#504d4d;
+}
+.look img{
+    border-radius: 0 20px 20px 0;
+    width:50px; 
+    padding-top: 10px;
+}
+.addones{
+    margin-top: 30px;
+}
+.addimg img{
+    height: 90px;
+    width: 200px;
+    margin-left: 90px;
+}
+.addones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 40px;
+    margin-bottom: 20px;
+}
+a div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+footer{
+    background-color: #1b1b1b;
+    color: rgb(128, 124, 124);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-top: 30px;
+}
